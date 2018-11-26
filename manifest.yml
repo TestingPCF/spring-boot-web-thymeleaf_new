@@ -1,0 +1,8 @@
+applications:
+- path: target/PCF-spring-boot-web-thymeleaf-1.0.jar
+  memory: 1024M
+  instances: 1
+  domain: cfapps.io
+  name: PCFTestExample
+  host: PCFTestExample
+  disk_quota: 1024M
